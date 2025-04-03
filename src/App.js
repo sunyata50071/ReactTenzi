@@ -7,7 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faDice } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 library.add(faDice)
-const diceIcon = <FontAwesomeIcon icon={faDice} />
+const diceIcon = <FontAwesomeIcon icon={faDice} shake />
 
 function App() {
     
