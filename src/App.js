@@ -74,7 +74,7 @@ function App() {
                 {diceElements}
             </div>
             <button ref={keyboardRef} className="roll-dice" onClick={rollDice}>
-                {gameWon ? "New game" : diceIcon}
+                {gameWon ? "New" : diceIcon}
             </button>
         </main>
     )
